@@ -1,6 +1,12 @@
-<template><div class="card">
-    <Menubar :model="items" />
-</div>
+<template>
+<header class="columns-3">
+    <div class="card">
+        <Menubar :model="items" />
+    </div>
+    <div class="card right-1">
+        <Menubar :model="itemsRight" />
+    </div>
+</header>
 </template>
 
 <script setup>
@@ -8,48 +14,34 @@ import { ref } from "vue";
 
 const items = ref([
   {
-      label: 'Home',
+      label: 'Recipes',
       icon: 'pi pi-home'
   },
   {
-      label: 'Features',
+      label: 'Articles',
       icon: 'pi pi-star'
   },
   {
-      label: 'Projects',
+      label: 'Videos',
       icon: 'pi pi-search',
-      items: [
-          {
-              label: 'Components',
-              icon: 'pi pi-bolt'
-          },
-          {
-              label: 'Blocks',
-              icon: 'pi pi-server'
-          },
-          {
-              label: 'UI Kit',
-              icon: 'pi pi-pencil'
-          },
-          {
-              label: 'Templates',
-              icon: 'pi pi-palette',
-              items: [
-                  {
-                      label: 'Apollo',
-                      icon: 'pi pi-palette'
-                  },
-                  {
-                      label: 'Ultima',
-                      icon: 'pi pi-palette'
-                  }
-              ]
-          }
-      ]
   },
   {
       label: 'Contact',
       icon: 'pi pi-envelope'
+  }
+]);
+const itemsRight = ref([
+  {
+      label: 'App',
+      icon: 'pi pi-home'
+  },
+  {
+      label: 'Shop',
+      icon: 'pi pi-star'
+  },
+  {
+      label: 'About',
+      icon: 'pi pi-search',
   }
 ]);
 </script>

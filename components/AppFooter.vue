@@ -1,6 +1,6 @@
 <template>
-    <div class="columns-2">
-        <p class="right-03">First column</p>
+    <footer class="bg-white columns-3">
+        <p>First column</p>
         <p>Second column</p>
-    </div>
+    </footer>
 </template>

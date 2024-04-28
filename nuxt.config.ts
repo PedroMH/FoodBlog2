@@ -12,6 +12,7 @@ export default defineNuxtConfig({
   primevue: {
       options: {
         unstyled: false
-      },
-  }
+      },cssLayerOrder: 'reset,primevue'
+  },
+  
 })

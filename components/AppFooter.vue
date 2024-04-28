@@ -1,6 +1,6 @@
 <template>
     <footer class="bg-white columns-3">
-        <p>First column</p>
-        <p>Second column</p>
+        <p>First footer column</p>
+        <p>Second footer column</p>
     </footer>
 </template>

@@ -1,16 +1,14 @@
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
-  <div class="card flex justify-center font-bold underline">
-        <Button label="Submit" />
-    </div>
-</template>
-<style scoped>
-  
-</style>
-<script setup>
+    <NuxtLayout>
+    <NuxtPage />
 
-import Button from 'primevue/button';
+    <!-- Similar to <ContentDoc :path="$route.path" /> -->
+    <ContentDoc />
+
+  </NuxtLayout>
+
+</template>
+
+<script setup>
 
 </script>

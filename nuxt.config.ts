@@ -8,7 +8,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ['nuxt-primevue', "@nuxt/content"],
+  modules: ['nuxt-primevue', "@nuxt/content", "@nuxt/image"],
   primevue: {
       options: {
         unstyled: false

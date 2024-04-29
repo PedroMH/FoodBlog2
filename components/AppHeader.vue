@@ -1,9 +1,11 @@
 <template>
-<header class="columns-3">
+<header >
     <div class="card">
         <Menubar :model="items" />
     </div>
-    <div class="card right-1">
+    <NuxtImg src="/public/logo.jpg" />
+
+    <div class="card">
         <Menubar :model="itemsRight" />
     </div>
 </header>

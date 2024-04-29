@@ -1,10 +1,10 @@
 <template>
+  <AppHeader/>
   <NuxtLayout>
       <NuxtPage />
       <div>
-        <ContentDoc/>
-      </div>
-      
+        <ContentDoc path="/recipe" />
+      </div>   
   </NuxtLayout>
 </template>
 

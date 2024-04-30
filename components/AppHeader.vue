@@ -1,49 +1,50 @@
 <template>
-<header >
-    <div class="card">
-        <Menubar :model="items" />
-    </div>
-    <NuxtImg src="/public/logo.jpg" />
-
-    <div class="card">
-        <Menubar :model="itemsRight" />
-    </div>
-</header>
+    <header>
+        <nav>
+            <ul class="left-menu">
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul class="right-menu">
+                <li><a href="#">App</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
 </template>
 
-<script setup>
-import { ref } from "vue";
+<style scoped>
+header {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
 
-const items = ref([
-  {
-      label: 'Recipes',
-      icon: 'pi pi-home'
-  },
-  {
-      label: 'Articles',
-      icon: 'pi pi-star'
-  },
-  {
-      label: 'Videos',
-      icon: 'pi pi-search',
-  },
-  {
-      label: 'Contact',
-      icon: 'pi pi-envelope'
-  }
-]);
-const itemsRight = ref([
-  {
-      label: 'App',
-      icon: 'pi pi-home'
-  },
-  {
-      label: 'Shop',
-      icon: 'pi pi-star'
-  },
-  {
-      label: 'About',
-      icon: 'pi pi-search',
-  }
-]);
-</script>
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.left-menu li,
+.right-menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #666;
+}
+</style>

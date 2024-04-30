@@ -3,10 +3,12 @@
   <NuxtLayout>
       <NuxtPage />
       <div>
-        <ContentDoc path="/recipe" />
+        <ContentDoc path="/recipe"/>
       </div>   
   </NuxtLayout>
+  <AppFooter/>
 </template>
 
 <script setup>
+
 </script>

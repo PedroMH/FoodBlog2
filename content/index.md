@@ -1,53 +1,25 @@
 ---
-title: 'Spicy Keema noodles'
-description: 'meta description of the page'
+layout: default
+head:
+  title: Alpine
+description: An open source blog theme powered by Nuxt.
+title: About
 ---
-::header
-Spicy chili oil, crunchy peanuts with spiced chicken makes these noodles delicious. Packed with different flavors this just might be the noodles you need for that zing. 
+
+::hero
+---
+image: /public/logo.jpg
+---
+#title
+Hi, I am Alpine.
+
+#description
+- An [open source blog theme](https://github.com/nuxt-themes/alpine) powered by [Nuxt Content](https://content.nuxtjs.org), editable on [Nuxt Studio](https://nuxt.studio).
+- Write pages in Markdown and Vue components with the [MDC syntax](https://content.nuxtjs.org/guide/writing/mdc).
+- Use [**30+ built-in**](https://elements.nuxt.space) components in your Markdown pages.
 ::
 
-::Ingredients 
+<div class=" right-7">Lorem ipsum<div/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim.
 
-Noodle of your choice 
-½ Tbsp olive oil
-4 cloves of Garlic, cut 
-1 medium onion, cut
-200g ground chicken 
-1 medium tomatoes
-Handful of chopped coriander 
-::
+Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.
 
-Seasoning 
-1tsb turmeric powder 
-1tsp coriander powder 
-1tsb meat masala
-1tsb chili powder
-1tsb Salt 
-1tbsp Soy sauce 
-
-
-For serving 
-1tbsp Chili oil with peanuts 
-Sichuan pepper 
-Blanched Pak choi  
-
-Direction 
-
-See the instructions on the packet and Boil the noodles until it’s cooked. 
-
-While the noodles are cooking, Take a separate pan and heat the oil. When oil is hot enough add garlic and saute for 1-2 minutes. When garlic turns a little brown add in onion and saute for 2-3 minutes until it’s slightly cooked. 
-
-When the onions are done add in the chicken. Cook it for 10 minutes on a medium flame. 
-Now, add in all the seasoning. Saute for 5 minutes. Meanwhile, start blanching pak choi. 
-When chicken is cooked. Add in tomatoes and cook until it turns into gravy. 
-Turn off the heat, Add the coriander and give it a mix. 
-
-
-Plating 
- 
-Add chili oil in a bowl with some Sichuan pepper. Then add noodles on top of the sauce with a good amount of spiced chicken. Finish it off by adding some pak choi. 
-
-Note 
-
-When the noodles were almost done, I added pak choi to be blanched. It saves time and water. 
- 

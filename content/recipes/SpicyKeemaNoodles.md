@@ -1,16 +1,14 @@
 ---
 layout: default
-head:
-  title: Alpine
-description: An open source blog theme powered by Nuxt.
-title: About
+description: Spicy chili oil, crunchy peanuts with spiced chicken make these noodles delicious. Packed with different flavors, this just might be the noodles you need for that zing. 
+title: Spicy Keema noodles
 ---
 
 ::hero
 ---
 image: /public/logo.jpg
 ---
-#title
+#titleofthehero
 Hi, I am Alpine.
 
 #description
@@ -18,6 +16,6 @@ Hi, I am Alpine.
 - Write pages in Markdown and Vue components with the [MDC syntax](https://content.nuxtjs.org/guide/writing/mdc).
 - Use [**30+ built-in**](https://elements.nuxt.space) components in your Markdown pages.
 ::
-::content
-This is content in index.md
-::
+
+This is content in Spicy
+

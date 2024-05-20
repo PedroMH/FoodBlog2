@@ -14,9 +14,6 @@ dependencies:
   nuxt:
     specifier: ^3.11.2
     version: 3.11.2(@unocss/reset@0.59.4)(floating-vue@5.2.2)(unocss@0.59.4)(vite@5.2.10)
-  primevue:
-    specifier: ^3.52.0
-    version: 3.52.0(vue@3.4.26)
   vue:
     specifier: ^3.4.21
     version: 3.4.26
@@ -6427,14 +6424,6 @@ packages:
     dependencies:
       vue: 3.4.26
     dev: true
-
-  /primevue@3.52.0(vue@3.4.26):
-    resolution: {integrity: sha512-HLOVP5YI0ArFKUhIyfZsWmTNMaBYNCBWC/3DYvdd/Po4LY5/WXf7yIYvArE2q/3OuwSXJXvjlR8UNQeJYRSQog==}
-    peerDependencies:
-      vue: ^3.0.0
-    dependencies:
-      vue: 3.4.26
-    dev: false
 
   /proc-log@3.0.0:
     resolution: {integrity: sha512-++Vn7NS4Xf9NacaU9Xq3URUuqZETPsf8L4j5/ckhaRYsfPeRyzGw+iDjFhV/Jr3uNmTvvddEJFWh5R1gRgUH8A==}

@@ -7,17 +7,7 @@ title: About
 ---
 
 ::hero
----
-image: /public/logo.jpg
----
-#title
-Hi, I am Alpine.
 
-#description
-- An [open source blog theme](https://github.com/nuxt-themes/alpine) powered by [Nuxt Content](https://content.nuxtjs.org), editable on [Nuxt Studio](https://nuxt.studio).
-- Write pages in Markdown and Vue components with the [MDC syntax](https://content.nuxtjs.org/guide/writing/mdc).
-- Use [**30+ built-in**](https://elements.nuxt.space) components in your Markdown pages.
+![my image](public/logo.jpg)
 ::
-::content
-This is content in index.md
-::
+

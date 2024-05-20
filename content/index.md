@@ -6,8 +6,8 @@ description: An open source blog theme powered by Nuxt.
 title: About
 ---
 
-::hero
+content index
 
 ![my image](public/logo.jpg)
-::
+
 

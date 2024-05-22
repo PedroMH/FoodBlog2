@@ -9,10 +9,5 @@ export default defineNuxtConfig({
     },
   },
   modules: ["@nuxt/content", "@nuxt/image"],
-  primevue: {
-      options: {
-        unstyled: false
-      },cssLayerOrder: 'reset,primevue'
-  },
-  
+
 })

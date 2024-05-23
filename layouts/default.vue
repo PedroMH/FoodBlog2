@@ -32,7 +32,7 @@
       </button>
     </div>
   </div>
-  <slot />
+  <slot/>
   <footer class="footer-center p-5 bg-neutral text-neutral-content">
     <nav>
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"

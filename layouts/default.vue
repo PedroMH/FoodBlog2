@@ -32,6 +32,17 @@
       </button>
     </div>
   </div>
+  <nav class="bg-white shadow-md">
+    <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+      <a href="/" class="text-2xl font-semibold">Recipe Site</a>
+      <div>
+        <a href="#" class="text-gray-700 px-4">Home</a>
+        <a href="#" class="text-gray-700 px-4">Recipes</a>
+        <a href="#" class="text-gray-700 px-4">About</a>
+        <a href="#" class="text-gray-700 px-4">Contact</a>
+      </div>
+    </div>
+  </nav>
   <slot/>
   <footer class="footer-center p-5 bg-neutral text-neutral-content">
     <nav>
